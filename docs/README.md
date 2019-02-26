@@ -11,5 +11,5 @@ features:
   details: 基于轻量的 Koa2 内核，较少的前置中间件，享受 async/await 的开发体验。
 - title: 插件机制
   details: 提供插件机制扩展中间件和辅助函数。
-footer: MIT Licensed | Copyright © 2018-present limejs.cn
+footer: MIT Licensed | Copyright © 2019-present limejs.cn
 ---
