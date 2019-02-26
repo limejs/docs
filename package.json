@@ -1,0 +1,16 @@
+{
+  "name": "lime-tpl-api-docs",
+  "version": "0.0.1",
+  "description": "lime-template-api docs",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sheldoncui <websheldoncui@gmail.com> (https://www.cuiyongjian.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.14.8"
+  }
+}
