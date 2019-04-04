@@ -12,6 +12,7 @@ module.exports = {
               'router',
               'controller',
               'view',
+              'service',
               'plugin',
               'error',
               'deploy',
@@ -24,8 +25,9 @@ module.exports = {
           {
             text: '项目模板',
             items: [
-              { text: 'Standard', link: '/template/standard' },
-              { text: 'SFB', link: '/template/sfb' },
+              { text: 'MVC', link: '/template/mvc' },
+              { text: 'SFB', link: '/template/spa' },
+              { text: 'SFB', link: '/template/ssr' },
               { text: 'REST API', link: '/template/api' },
             ]
           },
