@@ -38,7 +38,8 @@ module.exports = {
             ],
             '/template/api/': [
               'start',
-              'config'
+              'config',
+              'jwt'
             ]
           },
         lastUpdated: 'Last Updated', // string | boolean
