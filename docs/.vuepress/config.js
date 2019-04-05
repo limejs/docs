@@ -29,12 +29,13 @@ module.exports = {
             '/template/spa/': [
               'start',
               'config',
-              'mode'
+              'static'
             ],
             '/template/ssr/': [
               'start',
               'config',
-              'mode'
+              'router',
+              'mode',
             ],
             '/template/api/': [
               'start',

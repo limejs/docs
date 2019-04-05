@@ -1,6 +1,6 @@
-# 介绍
+# API 项目样板
+
+API项目样板是一个面向 REST 风格的 API 开发的项目样板，提供了基本的 JSON处理和响应API，并且内置了 JWT 插件方便实现鉴权
 
 
-lime.js 是一个轻量的基于 [Koa2](https://koa.bootcss.com/) 的 Node.js Web开发框架，它基于经典的 MVC 范式，致力于提供简单易用的 Web 应用开发体验。
-
-只要你熟悉 Node.js 基本语法并了解 [Koa](https://koa.bootcss.com/) 框架中的基本概念(如中间件)，即可 3 秒钟快速上手 lime.js 框架
+[立刻开始](./start.md)
