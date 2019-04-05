@@ -1,32 +1,36 @@
-# 项目模板
+# 项目样板
 
-项目模板是指的我们官方提供的针对某些业务场景的 `项目骨架/目录组织样板`
+项目模板是指的我们官方提供的针对某些业务场景的 `项目骨架/目录组织样板`，每个模板实际上只是在 LIME 核心的基础上提供一些适用于其场景的插件，来满足对应场景下开发需求；因此除了使用别人提供的样板，你自己编写一个样板也是一样的简单。
 
-
-## MVC
-
-最容易理解的开发方式，适合快速构建一个对SEO友好的简单网站出来。特别适合于企业网站。
-
-* [MVC](https://github.com/limejs/lime-template-mvc) 这是传统的 MVC 开发模式的项目样板，包含完整的MVC模块，服务端通过模板引擎来渲染视图。`[立刻启动一个传统MVC模式的开发](https://github.com/limejs/lime-template-mvc)`
-
-## Vue Spa
-
-前后端分离+合并部署。
-
-* [SPA](https://github.com/limejs/lime-template-spa) 基于 Lime+Vue 的前后端分离的项目样板，兼顾单页应用运行和API开发。通过 lime 框架作为中间层来托管 Vue 资源文件，并在 limejs 中通过 webpack-dev-middleware 等插件完成Vue的热加载和热替换。`[立刻启动一个用 Node.js 作为中间层的SPA项目](https://github.com/limejs/lime-template-spa)`
+为了方便快速开发，我们官方提供了以下 4 个常用的项目样板并配有灵活的脚手架[CLI](https://github.com/limejs/lime-cli)工具，每个样板都有对应的详尽的文档解释，你可以根据自己的应用场景进行选择并阅读对应的文档。
 
 
+### MVC
 
-## Vue SSR
+传统的 MVC 开发模式的项目样板， 这是最容易理解的开发方式，适合快速构建一个对SEO友好的简单网站出来。特别适合于企业网站。它包含完整的MVC模块，服务端通过模板引擎来渲染视图。
 
-前后端分离的同构应用，同时兼顾了 Node.js 层 API 的路由分发
+[立刻阅读文档](/template/mvc/)
+
+### Vue SPA
+
+`前后端分离+合并部署` 的开发模式。基于 Lime+Vue 的前后端分离的项目样板，兼顾单页应用运行和API开发。
+
+通过 lime 框架作为中间层来托管 Vue 资源文件，并在 limejs 中通过 webpack-dev-middleware 等插件完成Vue的热加载和热替换。
+
+[立刻阅读文档](/template/spa)
 
 
-[SSR](https://github.com/limejs/lime-template-ssr) Lime+VueSSR 服务端同构渲染的项目样板，适合面向消费者、对首屏加载性能和SEO有一定要求的站点；同样实现了热加载热替换、异常处理、cookie处理、api开发等。`[立刻启动一个用 Node.js 作为中间层的同构VueSSR项目](https://github.com/limejs/lime-template-spa)`
+### Vue SSR
+
+前后端分离的同构应用，同时兼顾了 Node.js 层 API 的路由分发。 它基于 Lime+VueSSR 实现服务端同构渲染的项目样板，适合面向消费者、对首屏加载性能和SEO有一定要求的站点；同样实现了热加载热替换、异常处理、cookie处理、api开发等。
+
+[立刻阅读文档](/template/ssr)
 
 
-## RESTFul API
+### REST API
 
-* [API](https://github.com/limejs/lime-template-api) API 项目样板，去除了 model层、view层，增加了services层，适合开发REST API项目。 `[立刻启动一个用 Node.js 作为中间层的同构VueSSR项目](https://github.com/limejs/lime-template-spa)`
+API 项目样板，去除了 model层、view层，增加了services层，适合开发REST API项目。 
+
+[立刻阅读文档](/template/api)
 
 
