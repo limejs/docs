@@ -12,6 +12,7 @@ module.exports = {
               'controller',
               'view',
               'service',
+              'model',
               'plugin',
               'error',
               'deploy',
