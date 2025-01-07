@@ -1,7 +1,7 @@
 module.exports = {
   title: "LIME.JS",
   description: "limejs 是一个基于 MVC 的 Node.js Web 开发框架",
-  base: "/docs",
+  base: "/docs/",
   themeConfig: {
     // sidebar: 'auto',
     sidebar: {
